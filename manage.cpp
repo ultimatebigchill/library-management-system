@@ -79,13 +79,17 @@ int bookAddWizard() {
   Book newBook;
   cout << "BookName: ";
   cin >> newBook.name;
-// Book Name: C++ Programming
-// Book ISBN Number: 123456
-// Publisher Name: MIT
-// Author Name: Dietel & Dietel
-// Number of Copies: 6
-// Date of Issue: 12-03-1999
-// Do you want to add book information (Y/N): Y
+  cout << "Book ISBN Number: ";
+  cin >> newBook.isbn;
+  cout <<"Publisher Name: ";
+  cin >> newBook.publisherName;
+  cout << "Author Name: ";
+  cin >> newBook.authorName;
+  cout << "Number of Copies: ";
+  cin >> newBook.numberOfCopies;
+  cout << "Date of Issue: ";
+  cin >> newBook.dateOfIssue;
+  cout << "Do you want to add book information (Y/N): ";
 // ----------------------------------------------------------------------------------------------------------
 return 0;
 }
