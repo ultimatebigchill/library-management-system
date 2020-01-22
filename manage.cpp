@@ -8,8 +8,8 @@ int main() {
 }
 
 int mainScreen() {
-  std::cout << "UOS Library Management System" << '\n';
-  std::cout << "\n" << "Press option Key to activate the required function." << '\n';
-  
+  cout << "UOS Library Management System" << '\n';
+  cout << "\n" << "Press option Key to activate the required function." << '\n';
+
   return 0;
 }
