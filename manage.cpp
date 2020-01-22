@@ -19,8 +19,8 @@ int main() {
 }
 
 void clear_screen() {
-  #ifdef WINDOWS
-    std::system("cls");
+  #ifdef _WIN32
+  std::system("cls");
   #else
     // Assume POSIX
     std::system ("clear");
